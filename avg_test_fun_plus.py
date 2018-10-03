@@ -14,7 +14,7 @@ def print_Output(nums):
           f"The average score was {np.mean(nums)}\n"
           f"The total of the middle three scores is {np.sum(nums)-(np.min(nums)+np.max(nums))}")
 
-    if __name__ == '__main__':
-        nums = get_Input()
-        print_Output(nums)
+if __name__ == '__main__':
+    nums = get_Input()
+    print_Output(nums)
 
