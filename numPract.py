@@ -1,7 +1,8 @@
 import numpy as np
+from library import inUtils as inu
 
 def get_Input():
-    return np.array([int(input(f'please enter test {i+1} '))for i in range(int(input("how may test would you like to enter?")))])
+    return np.array([inu.putPosFloat(f'please enter test {i+1} ')for i in range(inu.posPutInt("how may test would you like to enter?"))])
 
 
 def print_Output(nums):
