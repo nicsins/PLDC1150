@@ -1,0 +1,104 @@
+<component name="ProjectCodeStyleConfiguration">
+  <code_scheme name="Project" version="173">
+    <option name="RIGHT_MARGIN" value="80" />
+    <option name="FORMATTER_TAGS_ENABLED" value="true" />
+    <option name="FORMATTER_TAGS_ACCEPT_REGEXP" value="true" />
+    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
+    <codeStyleSettings version="173" language="Hoi4">
+      <option name="OTHER_INDENT_OPTIONS">
+        <value>
+          <option name="USE_TAB_CHARACTER" value="true" />
+          <option name="SMART_TABS" value="true" />
+        </value>
+      </option>
+      <codeStyleSettings version="173" language="Hoi4">
+        <option name="OTHER_INDENT_OPTIONS">
+          <value>
+            <option name="USE_TAB_CHARACTER" value="true" />
+            <option name="SMART_TABS" value="true" />
+          </value>
+        </option>
+        <codeStyleSettings version="173" language="Hoi4">
+          <option name="OTHER_INDENT_OPTIONS">
+            <value>
+              <option name="USE_TAB_CHARACTER" value="true" />
+              <option name="SMART_TABS" value="true" />
+            </value>
+          </option>
+          <codeStyleSettings version="173" language="Hoi4">
+            <option name="OTHER_INDENT_OPTIONS">
+              <value>
+                <option name="USE_TAB_CHARACTER" value="true" />
+                <option name="SMART_TABS" value="true" />
+              </value>
+            </option>
+            <codeStyleSettings version="173" language="Hoi4">
+              <option name="OTHER_INDENT_OPTIONS">
+                <value>
+                  <option name="USE_TAB_CHARACTER" value="true" />
+                  <option name="SMART_TABS" value="true" />
+                </value>
+              </option>
+              <codeStyleSettings version="173" language="Hoi4">
+                <option name="OTHER_INDENT_OPTIONS">
+                  <value>
+                    <option name="USE_TAB_CHARACTER" value="true" />
+                    <option name="SMART_TABS" value="true" />
+                  </value>
+                </option>
+                <codeStyleSettings version="173" language="Hoi4">
+                  <option name="OTHER_INDENT_OPTIONS">
+                    <value>
+                      <option name="USE_TAB_CHARACTER" value="true" />
+                      <option name="SMART_TABS" value="true" />
+                    </value>
+                  </option>
+                  <codeStyleSettings version="173" language="Hoi4">
+                    <option name="OTHER_INDENT_OPTIONS">
+                      <value>
+                        <option name="USE_TAB_CHARACTER" value="true" />
+                        <option name="SMART_TABS" value="true" />
+                      </value>
+                    </option>
+                    <codeStyleSettings version="173" language="Hoi4">
+                      <option name="OTHER_INDENT_OPTIONS">
+                        <value>
+                          <option name="USE_TAB_CHARACTER" value="true" />
+                          <option name="SMART_TABS" value="true" />
+                        </value>
+                      </option>
+                      <codeStyleSettings version="173" language="Hoi4">
+                        <option name="OTHER_INDENT_OPTIONS">
+                          <value>
+                            <option name="USE_TAB_CHARACTER" value="true" />
+                            <option name="SMART_TABS" value="true" />
+                          </value>
+                        </option>
+                        <codeStyleSettings version="173" language="Hoi4">
+                          <option name="OTHER_INDENT_OPTIONS">
+                            <value>
+                              <option name="USE_TAB_CHARACTER" value="true" />
+                              <option name="SMART_TABS" value="true" />
+                            </value>
+                          </option>
+                          <codeStyleSettings version="173" language="Hoi4">
+                            <option name="OTHER_INDENT_OPTIONS">
+                              <value>
+                                <option name="USE_TAB_CHARACTER" value="true" />
+                                <option name="SMART_TABS" value="true" />
+                              </value>
+                            </option>
+                          </codeStyleSettings>
+                        </codeStyleSettings>
+                      </codeStyleSettings>
+                    </codeStyleSettings>
+                  </codeStyleSettings>
+                </codeStyleSettings>
+              </codeStyleSettings>
+            </codeStyleSettings>
+          </codeStyleSettings>
+        </codeStyleSettings>
+      </codeStyleSettings>
+    </codeStyleSettings>
+  </code_scheme>
+</component>
