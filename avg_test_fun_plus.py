@@ -1,3 +1,5 @@
+'''this program is average grade program modified using input validation library and numpy to show the power of the snake'''
+
 import numpy as np
 from library import inUtils as inu
 
