@@ -25,3 +25,5 @@ while True:
 for student in students:
     for test in Tests:
         print(f'for student{student+1} enter quiz # {test+1}')
+
+

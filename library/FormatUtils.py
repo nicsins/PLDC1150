@@ -1,0 +1,1 @@
+""" this is a collection of functions used toi assist in formating """

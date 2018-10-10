@@ -34,10 +34,10 @@ def get_big(small):
         try:   #using try /except/if /else to validate data
             big = int(input('Please enter a big greater than 0'))
         except ValueError:
-            print("Sorry, I didn't understand that.")
+            print("Sorry, I didn't understand that .")
             continue
         if big< small:
-            print("sorry number must be lkarger than the first number")
+            print("sorry number must be larger than the first number")
             continue
         else:
             break

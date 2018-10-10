@@ -18,7 +18,7 @@ def print_numbers(small,big):
     sum=0
     for num in range(small, big + 1):
         if num != big:
-            print(num, "+", end='')
+            print(num, "+ ", end='')
         else:
             print(num, "= ", end='')
         sum += num
