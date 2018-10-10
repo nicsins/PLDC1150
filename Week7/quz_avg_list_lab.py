@@ -1,6 +1,7 @@
 def main():
     try:
-        num_students, num_quizzes = get_input()
+        num_students = pos_int_input('How many students are in the group?')  # call to int validation function
+        num_quizzes = pos_int_input('How many quizzes do they take?')# call to int validation function
         list_of_list = processing(num_students, num_quizzes)
         display(list_of_list)
         restart = input('\nDo you want to restart? y or n')
@@ -9,10 +10,7 @@ def main():
     except Exception as err:
         print(err)
 
-def get_input():
-    num_students = pos_int_input('How many students are in the group?') # call to int validation function
-    num_quizzes = pos_int_input('How many quizzes do they take?')  # call to int validation function
-    return num_students, num_quizzes
+
 
 def pos_int_input(prompt):  # called in both inputs and processing functions
 
