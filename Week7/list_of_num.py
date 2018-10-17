@@ -2,7 +2,7 @@ def main():
     small=pos_int_input("enter a small number")
     big=get_big(small)
     total=processing(small,big)
-    print_Output(total)
+    print_Output(big,small,total)
 
 
 
@@ -46,8 +46,13 @@ def pos_int_input(prompt):  # called in both inputs and processing functions
 
 
 
-def print_Output(total):
-    print(*total,sep=',')
+def print_Output(big,small,total):
+    print('here is the number list printed in a loop :')
+    processing(big,small)
+    print('here is the number list printed w/o square brackets:\n',*total,sep=',')
+    print('this is another way to combine the two methods\n'
+          ,*total,sep='+',end='='+str(sum(total)))
+    print()
     print(f'the total sum of the numbers is {sum(total)}')
 
 if __name__ == '__main__':

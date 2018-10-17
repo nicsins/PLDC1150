@@ -63,7 +63,8 @@ def putPosFloat(prompt):
 
 def phone(prompt):
     while True:
-        Regex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
+       # Regex = re.compile(r'\d\d\d-\d\d\d-\d\d\d\d')
+        Regex=re.compile(r'^(\d{3})-(\d{3})-(\d{4})$') #found at https://www.bogotobogo.com/python/python_regularExpressions.php
         num=input(prompt)
         if Regex.fullmatch(num):
             break
@@ -75,6 +76,7 @@ def phone(prompt):
 def social(prompt):
     while True:
         Soc=re.compile(r'\d\d\d-\d\d-\d\d\d\d')
+       # Soc=re.compile((r'^(\d{3})-(\d{3})-(\d{4})$'))
         num = input(prompt)
         if Soc.fullmatch(num):
             break

@@ -1,10 +1,10 @@
 ''' how to import a local module '''
 from library import inUtils as inu
-
+import re
 def get_Input(): #formal way to define a function
     return inu.putPosFloat('enter a positive valid (floating point)')
 if __name__ == '__main__':
-    email=inu.isEmail('enter a valid email')
+   # email=inu.isEmail('enter a valid email')
 
     ip=inu.isIp('enter your ip address')
 
