@@ -9,6 +9,7 @@ def get_costs():
 def display_output(costs):
     print("Here's your overall budget:")
     print('{:<20}{:<20}{:<20}{:<20}'.format(*UTILITIES))
+
     print('${:<19,.2f}${:<19,.2f}${:<19,.2f}${:<19,.2f}'.format(*costs))
     print(f'\nYour total monthly budget is ${sum(costs):,.2f}')
 
@@ -26,6 +27,7 @@ def pos_float(prompt): # input validation using exception handling and condition
         else:
             break
     return num
+
 
 if __name__ == '__main__':
     try:
